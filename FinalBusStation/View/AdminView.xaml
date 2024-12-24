@@ -1,0 +1,452 @@
+﻿<Window x:Class="FinalBusStation.View.AdminView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="Панель администратора" Height="600" Width="1333">
+
+    <Grid Margin="0,0,-422,-182">
+        <TabControl Margin="10,10,431,10">
+
+            <!-- Вкладка для управления автобусами -->
+            <TabItem Header="Управление автобусами">
+                <StackPanel>
+
+                    <Expander Header="Добавить автобус" IsExpanded="False" Margin="0,0,0,10">
+                        <Grid Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="Модель:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Text="{Binding NewBusModel}" Margin="5,5,0,5"/>
+
+                            <TextBlock Grid.Row="1" Text="Номер:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding NewBusLicensePlate}" Margin="5,5,0,5"/>
+
+                            <TextBlock Grid.Row="2" Text="Вместимость:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding NewBusCapacity}" Margin="5,5,0,5"/>
+
+                            <Button Grid.Row="3" Grid.Column="1" Content="Добавить" Command="{Binding AddBusCommand}" Width="100" HorizontalAlignment="Right" Margin="0,10,0,0"/>
+                        </Grid>
+                    </Expander>
+                    <!-- DataGrid для отображения автобусов -->
+                    <DataGrid ItemsSource="{Binding Buses}"
+          AutoGenerateColumns="False"
+          CanUserAddRows="False"
+          Height="500"
+         CellEditEnding="DataGrid_CellEditEnding">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Модель" Binding="{Binding model, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+                            <DataGridTextColumn Header="Номерной знак" Binding="{Binding license_plate, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+                            <DataGridTextColumn Header="Вместимость" Binding="{Binding capacity, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+
+
+                            <!-- Столбец с кнопками "Изменить" и "Удалить" -->
+                            <DataGridTemplateColumn Header="Действия" Width="200">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                            <Button Content="Изменить" Width="80" Margin="5,0" Command="{Binding DataContext.EditBusCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}"/>
+                                            <Button Content="Удалить" Width="80" Margin="5,0" Command="{Binding DataContext.DeleteBusCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="Управление пользователями">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Expander для формы добавления/редактирования пользователя -->
+                    <Expander Header="Добавить/Редактировать пользователя" IsExpanded="False" Margin="0,0,0,10">
+                        <Grid Margin="10,0,10,0" Height="391">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="169*"/>
+                                <ColumnDefinition Width="953*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="Имя:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Text="{Binding SelectedUser.first_name, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Grid.Row="1" Text="Фамилия:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding SelectedUser.last_name, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Grid.Row="2" Text="Отчество:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding SelectedUser.middle_name, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Grid.Row="3" Text="Логин:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding SelectedUser.username, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Grid.Row="4" Text="Email:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding SelectedUser.email, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Grid.Row="5" Text="Телефон:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding SelectedUser.phone_number, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Grid.Row="6" Text="Паспортные данные:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding SelectedUser.passport_number, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Grid.Row="7" Text="Пароль:" VerticalAlignment="Center"/>
+                            <TextBox  Grid.Row="7" Grid.Column="1" Text="{Binding SelectedUser.password_hash, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5" Grid.ColumnSpan="2"/>
+                            <TextBlock Grid.Row="8" Text="Роль:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="8" Grid.Column="1" SelectedItem="{Binding SelectedUser.role, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,3">
+                                <ComboBox.ItemsSource>
+                                    <x:Array Type="{x:Type sys:String}">
+                                        <sys:String>Passenger</sys:String>
+                                        <sys:String>Administrator</sys:String>
+                                    </x:Array>
+                                </ComboBox.ItemsSource>
+                            </ComboBox>
+
+
+                            <Button Content="Сохранить" Command="{Binding SaveUserCommand}" Width="100" HorizontalAlignment="Left" Margin="40,0,0,0" Grid.Row="9"/>
+                            <Button Content="Добавить нового пользователя" Command="{Binding CreateUserCommand}" Width="200" Margin="10,0,0,0" Grid.Row="9" Grid.Column="1" HorizontalAlignment="Left" Grid.ColumnSpan="2"/>
+                        </Grid>
+                    </Expander>
+
+                    <!-- DataGrid для отображения пользователей -->
+                    <DataGrid Grid.Row="1" ItemsSource="{Binding Users}" AutoGenerateColumns="False" CanUserAddRows="False" SelectionMode="Single">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Имя" Binding="{Binding first_name}" Width="120"/>
+                            <DataGridTextColumn Header="Фамилия" Binding="{Binding last_name}" Width="120"/>
+                            <DataGridTextColumn Header="Отчество" Binding="{Binding middle_name}" Width="120"/>
+                            <DataGridTextColumn Header="Логин" Binding="{Binding username}" Width="120"/>
+                            <DataGridTextColumn Header="Пароль" Binding="{Binding password_hash}" Width="150"/>
+                            <DataGridTextColumn Header="Email" Binding="{Binding email}" Width="180"/>
+                            <DataGridTextColumn Header="Телефон" Binding="{Binding phone_number}" Width="120"/>
+                            <DataGridTextColumn Header="Паспорт" Binding="{Binding passport_number}" Width="150"/>
+                            <DataGridTextColumn Header="Роль" Binding="{Binding role}" Width="100"/>
+
+                            <DataGridTemplateColumn Header="Действия" Width="200">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                            <Button Content="Изменить" Width="80" Margin="5,0" Command="{Binding DataContext.EditUserCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}"/>
+                                            <Button Content="Удалить" Width="80" Margin="5,0" Command="{Binding DataContext.DeleteUserCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка для управления водителями -->
+            <TabItem Header="Управление водителями">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Кнопка для добавления нового водителя -->
+                    <Button Content="Добавить нового водителя" 
+                Command="{Binding CreateNewDriverCommand}" 
+                Width="200" Margin="0,0,0,10"/>
+
+                    <!-- Expander для формы добавления/редактирования водителя -->
+                    <Expander Header="Добавить/Редактировать водителя" IsExpanded="False" Margin="0,0,0,10">
+                        <Grid Margin="10,0,10,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="Имя:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Text="{Binding SelectedDriver.first_name, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5"/>
+
+                            <TextBlock Grid.Row="1" Text="Фамилия:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding SelectedDriver.last_name, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5"/>
+
+                            <TextBlock Grid.Row="2" Text="Отчество:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding SelectedDriver.middle_name, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5"/>
+
+                            <TextBlock Grid.Row="3" Text="Номер лицензии:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding SelectedDriver.license_number, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5"/>
+
+                            <TextBlock Grid.Row="4" Text="Телефон:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding SelectedDriver.phone_number, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5"/>
+
+                            <Button Grid.Row="5" Grid.Column="1" Content="Сохранить" Command="{Binding SaveDriverCommand}" Width="100" HorizontalAlignment="Right" Margin="0,10,0,0"/>
+                            <Button Grid.Row="5" Grid.Column="1"  Content="Добавить нового водителя" 
+Command="{Binding CreateNewDriverCommand}" 
+Width="200" Margin="802,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        </Grid>
+                    </Expander>
+
+                    <!-- DataGrid для отображения водителей -->
+                    <DataGrid Grid.Row="1" ItemsSource="{Binding Drivers}" AutoGenerateColumns="False" CanUserAddRows="False" SelectionMode="Single">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Имя" Binding="{Binding first_name}" Width="120"/>
+                            <DataGridTextColumn Header="Фамилия" Binding="{Binding last_name}" Width="120"/>
+                            <DataGridTextColumn Header="Отчество" Binding="{Binding middle_name}" Width="120"/>
+                            <DataGridTextColumn Header="Номер лицензии" Binding="{Binding license_number}" Width="150"/>
+                            <DataGridTextColumn Header="Телефон" Binding="{Binding phone_number}" Width="120"/>
+
+                            <DataGridTemplateColumn Header="Действия" Width="200">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                            <Button Content="Изменить" Width="80" Margin="5,0" Command="{Binding DataContext.EditDriverCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}"/>
+                                            <Button Content="Удалить" Width="80" Margin="5,0" Command="{Binding DataContext.DeleteDriverCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+
+            <!-- Вкладка для управления расписанием -->
+            <TabItem Header="Управление расписанием">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Expander для добавления нового расписания -->
+                    <Expander Header="Добавить расписание" IsExpanded="False" Margin="0,0,0,10">
+                        <Grid Margin="10,0,10,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <!-- ComboBox для выбора маршрута -->
+                            <TextBlock Text="ID Маршрута:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Column="1" ItemsSource="{Binding Routes}" DisplayMemberPath="route_id" SelectedValuePath="route_id" SelectedValue="{Binding SelectedSchedule.route_id}" Margin="5,5,0,5"/>
+
+                            <!-- ComboBox для выбора автобуса -->
+                            <TextBlock Grid.Row="1" Text="ID Автобуса:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Buses}" DisplayMemberPath="bus_id" SelectedValuePath="bus_id" SelectedValue="{Binding SelectedSchedule.bus_id}" Margin="5,5,0,5"/>
+
+                            <!-- ComboBox для выбора водителя -->
+                            <TextBlock Grid.Row="2" Text="ID Водителя:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="2" Grid.Column="1" ItemsSource="{Binding Drivers}" DisplayMemberPath="driver_id" SelectedValuePath="driver_id" SelectedValue="{Binding SelectedSchedule.driver_id}" Margin="5,5,0,5"/>
+
+                            <!-- Время начала поездки -->
+                            <TextBlock Grid.Row="3" Text="Начало поездки:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding SelectedSchedule.start_time}" Margin="5,5,0,5"/>
+
+                            <!-- Время конца поездки -->
+                            <TextBlock Grid.Row="4" Text="Конец поездки:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding SelectedSchedule.end_time}" Margin="5,5,0,5"/>
+
+                            <!-- Интервал -->
+                            <TextBlock Grid.Row="5" Text="Интервал (мин):" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding SelectedSchedule.interval_minutes}" Margin="5,5,0,5"/>
+
+                            <!-- Кнопка для добавления расписания -->
+                            <Button Grid.Row="6" Grid.Column="1" Content="Добавить" Command="{Binding AddScheduleCommand}" Width="100" HorizontalAlignment="Right" Margin="0,10,0,0"/>
+                        </Grid>
+                    </Expander>
+
+                    <!-- DataGrid для отображения расписаний -->
+                    <DataGrid Grid.Row="1" ItemsSource="{Binding Schedules}" AutoGenerateColumns="False" CanUserAddRows="False" SelectionMode="Single">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Id Маршрута" Binding="{Binding route_id}" Width="200"/>
+                            <DataGridTextColumn Header="ID Автобуса" Binding="{Binding bus_id}" Width="200"/>
+                            <DataGridTextColumn Header="ID Водителя" Binding="{Binding driver_id}" Width="200"/>
+                            <DataGridTextColumn Header="Начало" Binding="{Binding start_time}" Width="120"/>
+                            <DataGridTextColumn Header="Конец" Binding="{Binding end_time}" Width="120"/>
+                            <DataGridTextColumn Header="Интервал" Binding="{Binding interval_minutes}" Width="100"/>
+
+                            <DataGridTemplateColumn Header="Действия" Width="100">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Content="Удалить" Command="{Binding DataContext.DeleteScheduleCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+
+            <!-- Вкладка для создания маршрутов и рейсов -->
+            <TabItem Header="Создание маршрутов">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Форма для создания маршрута -->
+                    <GroupBox Header="Создать маршрут" Margin="0,0,0,10">
+                        <Grid Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="Откуда:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Text="{Binding NewRoute.start_location, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5"/>
+
+                            <TextBlock Grid.Row="1" Text="Куда:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding NewRoute.end_location, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5"/>
+
+                            <TextBlock Grid.Row="2" Text="Дистанция (км):" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding NewRoute.distance, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5"/>
+
+                            <Button Grid.Row="3" Grid.Column="1" Content="Добавить маршрут" Command="{Binding AddRouteCommand}" Width="150" HorizontalAlignment="Right" Margin="0,10,0,0"/>
+                        </Grid>
+                    </GroupBox>
+
+                    <!-- Таблица для маршрутов -->
+                    <DataGrid Grid.Row="1" ItemsSource="{Binding Routes1}" AutoGenerateColumns="False" CanUserAddRows="False" SelectionMode="Single">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding route_id}" Width="50"/>
+                            <DataGridTextColumn Header="Откуда" Binding="{Binding start_location}" Width="200"/>
+                            <DataGridTextColumn Header="Куда" Binding="{Binding end_location}" Width="200"/>
+                            <DataGridTextColumn Header="Дистанция" Binding="{Binding distance}" Width="100"/>
+                            <DataGridTemplateColumn Header="Действия" Width="100">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Content="Удалить" Command="{Binding DataContext.DeleteRouteCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка для создания рейсов на весь день -->
+            <TabItem Header="Создание рейсов">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Форма для создания рейсов на весь день -->
+                    <GroupBox Header="Создать рейсы на весь день" Margin="0,0,0,10">
+                        <Grid Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="ID расписания:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Column="1"
+          ItemsSource="{Binding Schedules1}"
+          SelectedItem="{Binding SelectedSchedule1}"
+          DisplayMemberPath="schedule_id"
+          Margin="5,5,0,5"/>
+
+                            <TextBlock Grid.Row="1" Text="Цена:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding NewTrip.price, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,0,5"/>
+
+                            <Button Grid.Row="2" Grid.Column="1" Content="Создать рейсы на весь день" Command="{Binding AddFullDayTripsCommand}" Width="200" HorizontalAlignment="Right" Margin="0,10,0,0"/>
+                        </Grid>
+                    </GroupBox>
+
+                    <!-- Таблица для рейсов -->
+                    <DataGrid Grid.Row="1" ItemsSource="{Binding Trips}" AutoGenerateColumns="False" CanUserAddRows="False" SelectionMode="Single">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding trip_id}" Width="50"/>
+                            <DataGridTextColumn Header="Расписание ID" Binding="{Binding schedule_id}" Width="100"/>
+                            <DataGridTextColumn Header="Отправление" Binding="{Binding departure_datetime}" Width="150"/>
+                            <DataGridTextColumn Header="Прибытие" Binding="{Binding arrival_datetime}" Width="150"/>
+                            <DataGridTextColumn Header="Цена" Binding="{Binding price}" Width="100"/>
+                            <DataGridTemplateColumn Header="Действия" Width="100">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Content="Удалить" Command="{Binding DataContext.DeleteTripCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Отчёты">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Кнопки для генерации отчётов -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <Button Content="Отчёт по пользователям" Command="{Binding GenerateUserReportCommand}" Width="180" Margin="5"/>
+                        <Button Content="Отчёт по водителям" Command="{Binding GenerateDriverReportCommand}" Width="180" Margin="5"/>
+                        <Button Content="Отчёт по маршрутам" Command="{Binding GenerateRouteReportCommand}" Width="180" Margin="5"/>
+                        <Button Content="Отчёт по рейсам" Command="{Binding GenerateTripReportCommand}" Width="180" Margin="5"/>
+                        <Button Content="Отчёт по билетам за месяц" Command="{Binding GenerateMonthlyTicketReportCommand}" Width="200" Margin="5"/>
+                        <Button Content="Печать" Command="{Binding PrintReportCommand}" Width="200" Margin="5"/>
+                    </StackPanel>
+
+                    <!-- Поле для отображения отчётов -->
+                    <TextBox Grid.Row="1" Text="{Binding ReportText}" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+
+                    <!-- Кнопка для печати отчёта -->
+                    <Button Grid.Row="2" Content="Печать отчёта" Command="{Binding PrintReportCommand}" Width="150" HorizontalAlignment="Right" Margin="0,10,0,0"/>
+                </Grid>
+            </TabItem>
+
+
+        </TabControl>
+    </Grid>
+</Window>

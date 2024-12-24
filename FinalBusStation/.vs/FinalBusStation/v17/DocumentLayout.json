@@ -1,0 +1,570 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\model\\routemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:model\\routemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\finalbusstation\\view\\adminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:view\\adminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\viewmodel\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:viewmodel\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\model\\drivermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:model\\drivermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\model\\schedulemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:model\\schedulemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\model\\tripmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:model\\tripmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\model\\ticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:model\\ticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\model\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:model\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\viewmodel\\passengerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:viewmodel\\passengerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\view\\registrationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:view\\registrationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B8AD01-03B6-4727-9B5E-36CC0C9CC6A9}|..\\DAL\\DAL.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\dal\\entity\\trips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B8AD01-03B6-4727-9B5E-36CC0C9CC6A9}|..\\DAL\\DAL.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\dal\\entity\\buses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B8AD01-03B6-4727-9B5E-36CC0C9CC6A9}|..\\DAL\\DAL.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\dal\\entity\\routes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B8AD01-03B6-4727-9B5E-36CC0C9CC6A9}|..\\DAL\\DAL.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\dal\\entity\\schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B8AD01-03B6-4727-9B5E-36CC0C9CC6A9}|..\\DAL\\DAL.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\dal\\entity\\drivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\view\\adminview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:view\\adminview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\model\\busmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:model\\busmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\viewmodel\\addcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:viewmodel\\addcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\view\\passengerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:view\\passengerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\model\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:model\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\view\\addcardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:view\\addcardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\viewmodel\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:viewmodel\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\view\\addcardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:view\\addcardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\view\\passengerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:view\\passengerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\view\\registrationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{075B8BF6-2261-4832-AA52-8FF4C2435F99}|FinalBusStation.csproj|solutionrelative:view\\registrationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B8AD01-03B6-4727-9B5E-36CC0C9CC6A9}|..\\DAL\\DAL.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\dal\\entity\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B8AD01-03B6-4727-9B5E-36CC0C9CC6A9}|..\\DAL\\DAL.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\dal\\entity\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TripModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\TripModel.cs",
+              "RelativeDocumentMoniker": "Model\\TripModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\TripModel.cs",
+              "RelativeToolTip": "Model\\TripModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:17:35.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\UserModel.cs",
+              "RelativeToolTip": "Model\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:06:30.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\UserSession.cs",
+              "RelativeDocumentMoniker": "Model\\UserSession.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\UserSession.cs",
+              "RelativeToolTip": "Model\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:27:12.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\TicketModel.cs",
+              "RelativeDocumentMoniker": "Model\\TicketModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\TicketModel.cs",
+              "RelativeToolTip": "Model\\TicketModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T22:53:48.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "routes.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\routes.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entity\\routes.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\routes.cs",
+              "RelativeToolTip": "..\\DAL\\Entity\\routes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T17:10:20.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminView.xaml",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\AdminView.xaml",
+              "RelativeDocumentMoniker": "View\\AdminView.xaml",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\AdminView.xaml",
+              "RelativeToolTip": "View\\AdminView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T23:58:51.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\RouteModel.cs",
+              "RelativeDocumentMoniker": "Model\\RouteModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\RouteModel.cs",
+              "RelativeToolTip": "Model\\RouteModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T18:00:50.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScheduleModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\ScheduleModel.cs",
+              "RelativeDocumentMoniker": "Model\\ScheduleModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\ScheduleModel.cs",
+              "RelativeToolTip": "Model\\ScheduleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:54:53.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DriverModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\DriverModel.cs",
+              "RelativeDocumentMoniker": "Model\\DriverModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\DriverModel.cs",
+              "RelativeToolTip": "Model\\DriverModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T16:42:48.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\LoginView.xaml.cs",
+              "RelativeToolTip": "View\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T20:43:14.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\AdminViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AdminViewModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\AdminViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AdminViewModel.cs",
+              "ViewState": "AgIAACICAAAAAAAAAAAUwEsCAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:59:27.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegistrationView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\RegistrationView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\RegistrationView.xaml.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\RegistrationView.xaml.cs",
+              "RelativeToolTip": "View\\RegistrationView.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAApwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T20:38:21.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "schedules.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\schedules.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entity\\schedules.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\schedules.cs",
+              "RelativeToolTip": "..\\DAL\\Entity\\schedules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T17:04:04.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PassengerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\PassengerViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\PassengerViewModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\PassengerViewModel.cs",
+              "RelativeToolTip": "ViewModel\\PassengerViewModel.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAiwE0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:18:10.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "buses.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\buses.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entity\\buses.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\buses.cs",
+              "RelativeToolTip": "..\\DAL\\Entity\\buses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:10:01.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\AdminView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AdminView.xaml.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\AdminView.xaml.cs",
+              "RelativeToolTip": "View\\AdminView.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAWwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:02:50.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "trips.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\trips.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entity\\trips.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\trips.cs",
+              "RelativeToolTip": "..\\DAL\\Entity\\trips.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T18:34:10.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BusModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\BusModel.cs",
+              "RelativeDocumentMoniker": "Model\\BusModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\BusModel.cs",
+              "RelativeToolTip": "Model\\BusModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:04:34.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "drivers.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\drivers.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entity\\drivers.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\drivers.cs",
+              "RelativeToolTip": "..\\DAL\\Entity\\drivers.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T17:10:52.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\RelayCommand.cs",
+              "RelativeToolTip": "ViewModel\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T17:04:37.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModel\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:45:51.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AddCardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\AddCardView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddCardView.xaml.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\AddCardView.xaml.cs",
+              "RelativeToolTip": "View\\AddCardView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T22:45:02.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddCardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\AddCardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AddCardViewModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\AddCardViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AddCardViewModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwDUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T22:43:13.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddCardView.xaml",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\AddCardView.xaml",
+              "RelativeDocumentMoniker": "View\\AddCardView.xaml",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\AddCardView.xaml",
+              "RelativeToolTip": "View\\AddCardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T22:42:45.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T22:37:27.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BooleanToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\BooleanToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:38:52.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PassengerView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\PassengerView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\PassengerView.xaml.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\PassengerView.xaml.cs",
+              "RelativeToolTip": "View\\PassengerView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:22:56.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PassengerView.xaml",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\PassengerView.xaml",
+              "RelativeDocumentMoniker": "View\\PassengerView.xaml",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\PassengerView.xaml",
+              "RelativeToolTip": "View\\PassengerView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T21:20:33.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "users.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\users.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entity\\users.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\users.cs",
+              "RelativeToolTip": "..\\DAL\\Entity\\users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:09:52.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RegistrationViewModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\RegistrationViewModel.cs",
+              "RelativeToolTip": "ViewModel\\RegistrationViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T20:35:37.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RegistrationView.xaml",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\RegistrationView.xaml",
+              "RelativeDocumentMoniker": "View\\RegistrationView.xaml",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\RegistrationView.xaml",
+              "RelativeToolTip": "View\\RegistrationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T20:34:17.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T20:27:26.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\AuthModel.cs",
+              "RelativeDocumentMoniker": "Model\\AuthModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\Model\\AuthModel.cs",
+              "RelativeToolTip": "Model\\AuthModel.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwHgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T20:27:03.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "View\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\FinalBusStation\\View\\LoginView.xaml",
+              "RelativeToolTip": "View\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T20:26:00.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\Model1.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entity\\Model1.cs",
+              "ToolTip": "C:\\Users\\\u043A\u0438\u0440\u0438\u043B\u043B\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\DAL\\Entity\\Model1.cs",
+              "RelativeToolTip": "..\\DAL\\Entity\\Model1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T20:24:39.313Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
